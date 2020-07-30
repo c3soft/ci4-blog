@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url('/assets/css/style.css') ?>">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<img class="img-fluid img-ban" src="<?php echo base_url('/assets/img/baniere-frozen.png') ?>" alt="">
+
   <div class="container">
     <a class="navbar-brand" href="/">
     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -23,11 +26,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">About us</a>
         </li>
+      </ul>
+      <ul class="navbar-nav">
+      <li><a class="btn btn-outline-success" href="/blog/create">Create Post</a>
+      </li>
       </ul>
     </div>
   </div>
