@@ -7,6 +7,7 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= base_url('/assets/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('/assets/css/trans.css') ?>">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
